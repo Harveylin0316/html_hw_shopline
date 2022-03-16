@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  width: 100%;
+  padding: 10px 100px 100px 100px;
+  /* background-color: blue; */
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  max-width: 100%;
+  height: 200px;
+  /* width: 56%; */
+  position: relative;
+  /* background-color: blue; */
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+/* .prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 70%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+} */
+
+/* Position the "next button" to the right */
+/* .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+} */
+
+/* On hover, add a black background color with a little bit see-through */
+/* .prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+} */
+
+/* Container for image text */
+/* .caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+} */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 20%;
+  /* margin: 10px; */
+  height: 120px;
+  text-align: center;
+  position: relative;
+  /* background-color: pink; */
+  /* border: 2px solid pink; */
+}
+
+.column img {
+  /* position: absolute; */
+
+  width: 120px;
+  /* border: 2px solid blue; */
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.5;
+}
+
+.active,
+.demo:hover {
+  opacity: 11;
+}
+/* 
+.brandInfo {
+  background-color: pink;
+  width: 44%;
+  height: 160px;
+}
+
+.wrapInfoSlide {
+  display: flex;
+  background-color: blue;
+  padding: 20px;
+} */
+
+.brandWrap {
+  display: flex;
+}
+
+.brandInfo {
+  /* background-color: red; */
+  width: 40%;
+  max-height: 300px;
+  position: relative;
+  padding: 20px;
+  color: rgb(39, 38, 38);
+}
+
+.brandInfo a {
+  text-decoration: none;
+  color: #285ff6;
+}
+.brandPic {
+  text-align: right;
+  /* background-color: blue; */
+  width: 60%;
+}
+
+.brandPic img {
+  width: 100%;
+  max-width: 700px;
+}

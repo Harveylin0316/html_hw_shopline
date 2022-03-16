@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/slideshow.css" />
+    <script src="/slideshow.js" defer></script>
+  </head>
+  <body>
+    <!-- Container for the image gallery -->
+    <div class="container">
+      <!-- Thumbnail images -->
+      <div class="row">
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="/bonnylogo.png"
+            onclick="currentSlide(1)"
+            alt="BONNY"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="/團員logo.png"
+            onclick="currentSlide(2)"
+            alt="團員堅果"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="/snatchlogo.png"
+            onclick="currentSlide(3)"
+            alt="SNATCH"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="xuxulogo.png"
+            onclick="currentSlide(4)"
+            alt="XUXU許許兒"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="/淡果香logo.png"
+            onclick="currentSlide(5)"
+            alt="淡果香"
+          />
+        </div>
+      </div>
+
+      <div
+        style="
+          background-color: #b1b2b4;
+          /* width: 1500px; */
+          height: 1px;
+          /* margin-left: 100px;
+          margin-right: 100px; */
+          margin-bottom: 20px;
+          margin-top: 10px;
+        "
+      ></div>
+
+      <!-- Full-width images with number text -->
+      <div class="mySlides">
+        <div class="brandWrap">
+          <div class="brandInfo">
+            <a href="https://www.bonnyread.com.tw/">bonnyread.com.tw&nbsp;→</a>
+            <p>
+              SHOPLINE
+              在行動裝置上操作的順暢度很高；使用者給的建議與意見會採納，處理的速度也不錯；還一直有新功能推出，不斷成長。
+            </p>
+            <p style="position: absolute; bottom: 0">
+              - BONNY & READ 店長, Stan
+            </p>
+          </div>
+          <div class="brandPic">
+            <img src="/bonny_pic.jpeg" />
+          </div>
+        </div>
+      </div>
+
+      <div class="mySlides">
+        <div class="brandWrap">
+          <div class="brandInfo">
+            <a href="https://www.tuanyuannuts.com/">tuanyuannuts.com&nbsp;→</a>
+            <p>
+              SHOPLINE 的 UI、UX 做得很好，保有能自行調整的彈性；《電商教室
+              Blog》也對我幫助很大，按照裡頭分享的 SEO
+              攻略本去優化商店設定，搜尋排名真的可以不斷上升！
+            </p>
+            <p style="position: absolute; bottom: 0">- 團員堅果 店長, Samuel</p>
+          </div>
+
+          <div class="brandPic">
+            <img src="/團員pic.jpeg" />
+          </div>
+        </div>
+      </div>
+
+      <div class="mySlides">
+        <div class="brandWrap">
+          <div class="brandInfo">
+            <a href="https://www.snatch-store.com/">snatch-store.com&nbsp;→</a>
+            <p>
+              SHOPLINE
+              的商品在下、上架方便是我最喜歡的部份，跟客服聯絡能馬上獲得協助，也是非常重要的環節。
+            </p>
+            <p style="position: absolute; bottom: 0">- SNATCH 店長, Daddi</p>
+          </div>
+
+          <div class="brandPic">
+            <img src="snatch_pic.jpeg" />
+          </div>
+        </div>
+      </div>
+
+      <div class="mySlides">
+        <div class="brandWrap">
+          <div class="brandInfo">
+            <a href="https://www.xuxuwear.com.tw/">xuxuwear.com.tw&nbsp;→</a>
+            <p>
+              SHOPLINE
+              在行銷模組方面非常多元，在功能上不會碰到優惠設定『打架』的情形，同時商店版型較為簡潔、乾淨，在後台操作上也比較直觀。
+            </p>
+            <p style="position: absolute; bottom: 0">
+              - 許許兒 品牌主理人 阿南
+            </p>
+          </div>
+
+          <div class="brandPic">
+            <img src="/xuxu_pic.png" />
+          </div>
+        </div>
+      </div>
+
+      <div class="mySlides">
+        <div class="brandWrap">
+          <div class="brandInfo">
+            <a href="https://www.naturefruittw.com/"
+              >naturefruittw.com&nbsp;→</a
+            >
+            <p>
+              使用 SHOPLINE 像請了 24
+              小時的員工可以不停地接單，省去了本來需要人工紀錄的金流、物流作業，我們有更多的時間可以專心做出更好的產品。
+            </p>
+            <p style="position: absolute; bottom: 0">
+              - 淡果香 店長, Roy & Boyeong
+            </p>
+          </div>
+
+          <div class="brandPic">
+            <img src="/淡果香_pic.jpeg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image text
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div> -->
+  </body>
+</html>

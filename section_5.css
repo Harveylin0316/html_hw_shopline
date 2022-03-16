@@ -1,0 +1,26 @@
+.s5-wrap {
+  /* box-sizing: border-box; */
+
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  /* width: 1500px; */
+  /* height: 500px; */
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: pink; */
+}
+.s5-item {
+  box-sizing: border-box;
+  /* background-color: black; */
+  margin: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 20px;
+  width: 480px;
+  height: 280px;
+  color: rgb(32, 32, 32);
+}
+.s5-item p {
+  text-align: left;
+}

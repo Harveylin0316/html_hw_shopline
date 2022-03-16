@@ -1,0 +1,112 @@
+.footer {
+  background-color: #04142b;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* width: 1700px; */
+  /* box-sizing: border-box; */
+}
+.footer-index-map {
+  display: flex;
+  /* background-color: pink; */
+  /* width: 1500px; */
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: space-between;
+}
+.map-item h3 {
+  color: white;
+}
+.map-item {
+  width: 14%;
+  /* background-color: aqua; */
+  line-height: 2;
+  margin-bottom: 40px;
+}
+.map-item a {
+  text-decoration: none;
+  color: #63637a;
+}
+.emergency-procedure {
+  /* width: 600px; */
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 100px;
+  margin-left: 100px;
+  /* background-color: aqua; */
+}
+.emergency-procedure a {
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 4px;
+  text-align: center;
+  margin-right: 10px;
+  text-decoration: none;
+  background-color: #e1f7ee;
+  color: black;
+  /* font-size: 14px; */
+}
+
+.social-icon-item {
+  /* box-sizing: border-box; */
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  /* margin: 50px; */
+  background-color: pink;
+}
+
+.social-icon {
+  width: 100%;
+}
+
+.social-icon-item .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+}
+
+.social-icon-item:hover .img-top {
+  display: inline;
+}
+
+.footer-end {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  align-items: center;
+}
+.end-1 {
+  /* background-color: pink; */
+  width: 33%;
+}
+.end-1 a {
+  text-decoration: none;
+  color: rgb(216, 212, 212);
+}
+
+.end-1 a:nth-child(-n + 2)::after {
+  content: "";
+  /* background-color: pink; */
+  border-right: 1px solid #3b4071;
+  margin-left: 4.5px;
+  /* width: 5px; */
+  /* height: 10px; */
+}
+.end-2 {
+  display: flex;
+  /* background-color: aqua; */
+  width: 300px;
+  justify-content: space-between;
+}
+.end-3 {
+  /* background-color: pink; */
+  color: #63637a;
+  /* padding-bottom: 70px; */
+}

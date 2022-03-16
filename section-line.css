@@ -1,0 +1,14 @@
+.section-line {
+  width: 100%;
+  box-sizing: border-box;
+  /* margin: 100px; */
+  height: 4px;
+  padding: 100px;
+  /* background-color: gainsboro; */
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: gainsboro;
+}

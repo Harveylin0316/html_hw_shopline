@@ -1,0 +1,44 @@
+.section1 {
+  width: 100%;
+  /* width: 1700px; */
+  /* background-image: url(/section1backgroun.png); */
+  background-image: url(/back1.001.jpeg);
+  /* height: 700px; */
+  /* background-color: blue; */
+}
+
+.s1class {
+  width: 70%;
+  height: 700px;
+  display: flex;
+  justify-content: flex-start;
+  /* background-color: pink; */
+}
+
+.s1-left {
+  /* background-color: brown; */
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.s1-left h2 {
+  width: 100%;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 50px;
+  /* background-color: pink; */
+}
+
+.s1-left p {
+  width: 80%;
+  font-size: 18px;
+  color: white;
+  line-height: 2;
+  /* background-color: pink; */
+}
+
+.s1-left span {
+  justify-content: flex-start;
+}
